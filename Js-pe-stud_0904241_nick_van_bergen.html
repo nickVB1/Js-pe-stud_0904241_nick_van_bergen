@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Registreer</h1>
+                <label>Meld je aan Anoroc Services, Wij beschermen jouw software tegen malware!</label>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="txtvoornaam">Voornaam</label>
+                <input type="text" class="form-control" id="txtvoornaam" placeholder="Uw voornaam">
+            </div>
+            <div class="col">
+                <label for="txtnaam">Naam</label>
+                <input type="text " class="form-control " id="txtnaam" placeholder="Uw naam ">
+            </div>
+            <div class="col">
+                <h4 id="red" style="background-color: lightcoral; visibility: hidden;">Yikes,errors..
+                    <p style="font-size: medium;" id="alertred"></p>
+                </h4>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <label for="txtgebruikersnaam ">Gebruikersnaam</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text " class="form-control " id="txtgebruikersnaam" placeholder="u911236 ">
+                </div>
+            </div>
+            <div class="col">
+                <label for="txtemail">E-mailadres</label>
+                <input type="email" class="form-control " id="txtemail" placeholder="mail@example.be ">
+            </div>
+            <div class="col">
+                <h4 id="green" style="background-color: lightgreen; visibility: hidden;">Goed gedaan!
+                    <p id="alertgreen"></p>
+                </h4>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="txtwachtwoord ">Wachtwoord</label>
+                <input type="password" pattern="({7,}" class="form-control" id="txtwachtwoord" placeholder=" " title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                <small id="passwordHelpInline" class="text-muted">
+                    je wachtwoord moet minstens 8 tekens lang zijn.
+                  </small>
+            </div>
+            <div class="col">
+                <label for="txtherwachtwoord ">Herhaal wachtwoord</label>
+                <input type="password" class="form-control" id="txtherwachtwoord" placeholder=" ">
+
+            </div>
+            <div class="col">
+                <h4 id="bleu" style="background-color: lightblue; visibility: hidden;">betaalwijzeging
+                    <p id="alertbleu"></p>
+                </h4>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="txtadres ">Adres</label>
+                <input type="text " class="form-control " id="txtadres" placeholder="Uw adres en huisnummer ">
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row ">
+            <div class="col ">
+                <label for="dlland ">Land</label>
+                <select class="form-control" id="dlland" required>
+                    <option selected>kies een land</option>
+                    <option>België/Belgique</option>
+                    <option>France</option>
+                    <option>Nederland</option>
+                    <option>United Kingdom</option>
+                </select>
+            </div>
+            <div class="col ">
+                <label for="dlprovincie ">Provincie</label>
+                <select class="form-control" id="dlprovincie" required>
+                    <option selected>kies een provincie</option>
+                    <option >Antwerpen</option>
+                    <option >henegouwen</option>
+                    <option >luik</option>
+                    <option >groningen</option>
+                    <option >friesland</option>
+                    <option >drenthe</option>
+                    <option >berry</option>
+                    <option >aunis</option>
+                    <option >poitou</option>
+                </select>
+            </div>
+            <div class="col ">
+                <label for="dlpostcode ">Postcode</label>
+                <select class="form-control" id="dlpostcode" required>
+                    <option selected></option>
+                    <option >2360</option>
+                    <option >1234</option>
+                    <option >01000</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <hr style="width:75%">
+
+    <div class="container ">
+        <div class="row ">
+            <div class="col ">
+                <h3>hou me op de hoogte</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Ik ga akkoord met de algemene voorwaarden
+                    </label>
+
+                </div>
+                <div class="col ">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                    Inschrijven voor onze nieuwsbrief
+                    </label>
+                </div>
+            </div>
+            <div class="col "></div>
+            <div class="col " id="rb">
+                <h3>Betaling</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radiobtn" id="rbbanking" value="option1" checked>
+                    <label class="form-check-label" for="rbbanking">
+                      Banking app
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radiobtn" id="rboverschrijving" value="option2">
+                    <label class="form-check-label" for="rboverschrijving">
+                     Overschrijving
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radiobtn" id="rbvisacard" value="option4">
+                    <label class="form-check-label" for="rbvisacard">
+                      visa card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radiobtn" id="rbpaypal" value="option3">
+                    <label class="form-check-label" for="rbpaypal">
+                      paypal
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr style="width:75%">
+    <div class="container ">
+        <div class="row ">
+            <div class="auto">
+                <button type="button " id="btnregistreren" class="btn btn-primary " style="width:595%">Wave your magic wand</button>
+            </div>
+        </div>
+
+        <script>
+            let errorsarray = [];
+
+            document.querySelector("#btnregistreren").addEventListener("click", ValidateForm);
+
+
+            function ValidateForm() {
+
+
+                checkEmptyField("txtvoornaam", "Het veld voornaam is vereist")
+                checkEmptyField("txtnaam", "Het veld naam is vereist")
+                checkEmptyField("txtgebruikersnaam", "Het veld gebruikersnaam is vereist")
+                checkEmptyField("txtadres", "Het veld adres is vereist")
+                checkEmptyField("dlland", "Het veld land  is vereist")
+                checkEmptyField("dlprovincie", "Het veld provincie  is vereist")
+
+                if (validateEmail("txtemail")) {} else {
+                    errorsarray.push("E-mailaders is niet correct");
+                    console.log(errorsarray)
+                }
+                passwordcheck("txtwachtwoord", "txtherwachtwoord")
+                validatePayment(rb)
+                controlealerts()
+            }
+
+            function checkEmptyField(gegeven, tekst) {
+                vullen = document.getElementById(gegeven);
+                if (vullen.value == "") {
+                    errorsarray.push(tekst);
+                    console.log(errorsarray)
+                }
+                if (vullen.value == "kies een land") {
+                    errorsarray.push("Het veld land is vereist");
+                    console.log(errorsarray)
+                }
+                if (vullen.value == "kies een provincie") {
+                    errorsarray.push("Het veld provincie is vereist");
+                    console.log(errorsarray)
+                }
+            }
+
+            function validateEmail(email) {
+                //validatie email https://www.codegrepper.com/code-examples/javascript/javascript+regex+email
+                email2 = document.getElementById(email);
+                let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if (email2.value == "") {
+
+                } else {
+                    if (email2.match(regexEmail)) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            }
+
+            function passwordcheck(wachtwoord1, wachtwoord2) {
+                ww1 = document.getElementById(wachtwoord1);
+                ww2 = document.getElementById(wachtwoord2);
+                var passw = /^\w{8,}$/;
+
+                if (ww1.value == "") {
+                    errorsarray.push("het wachtwoord mag niet leeg zijn");
+                    console.log(errorsarray)
+                }
+                if (ww2.value == "") {
+                    errorsarray.push("het herhalend wachtwoord mag niet leeg zijn");
+                    console.log(errorsarray)
+                }
+
+                if (ww1.value.match(passw)) {
+
+                } else {
+                    errorsarray.push("het wachtwoord is te kort");
+                    console.log(errorsarray)
+                }
+                if (ww1.value = ww2.value) {
+                    errorsarray.push("de wachtwoorden komen niet overeen");
+                    console.log(errorsarray)
+                }
+            }
+
+            function validatePayment(rb) {
+                // geg = document.querySelector('input[name="rb"]:checked').value;
+            }
+
+            function controlealerts() {
+                let lengtearray = errorsarray.length
+                if (lengtearray == 0) {
+                    document.getElementById('green').style.visibility = "visible";
+                    document.getElementById('bleu').style.visibility = "visible";
+                } else {
+                    let i = 0;
+                    let errors;
+                    while (i < errorsarray.length) {
+                        errors += errorsarray[i] + "\n";
+                        i++;
+                    }
+                    document.getElementById('alertred').innerHTML = errors;
+                    document.getElementById('red').style.visibility = "visible";
+                }
+            }
+        </script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
